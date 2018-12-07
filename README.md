@@ -1,1 +1,2 @@
-# sofa-bolt-demo
+mvn -Dmaven.test.skip=true  assembly:assembly
+java -Dfile.encoding=UTF-8 -classpath E:\resources\wuzhong290\sofa-bolt-demo\target\sofa-bolt-demo-1.0-SNAPSHOT-jar-with-dependencies.jar com.alipay.remoting.demo.RpcServerDemoByMain
